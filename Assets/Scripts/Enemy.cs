@@ -1,21 +1,60 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Enemy : MonoBehaviour
+public class AIController : MonoBehaviour
 {
+    public Transform[] patrolPoints;
+    public Transform player;
+    public Transform safeZone;
+    public float chaseDistance = 10f;
+    public float safeZoneRadius = 5f;
 
-    public Transform target;
+    private NavMeshAgent navMeshAgent;
+    private int currentPatrolIndex;
+    private bool isChasing;
 
-    public NavMeshAgent myAgent;
+    void Start()
+    {
+        navMeshAgent = GetComponent<NavMeshAgent>();
+        currentPatrolIndex = 0;
+        navMeshAgent.SetDestination(patrolPoints[currentPatrolIndex].position);
+    }
 
-    // Update is called once per frame
     void Update()
     {
-        if(myAgent != null || target != null)
+        float distanceToPlayer = Vector3.Distance(player.position, transform.position);
+        float distanceToSafeZone = Vector3.Distance(player.position, safeZone.position);
+
+        if (distanceToPlayer <= chaseDistance && distanceToSafeZone > safeZoneRadius)
         {
-            myAgent.SetDestination(target.position);
+            ChasePlayer();
         }
+        else
+        {
+            if (isChasing)
+            {
+                isChasing = false;
+                GoToNextPatrolPoint();
+            }
+            else if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < 0.5f)
+            {
+                GoToNextPatrolPoint();
+            }
+        }
+    }
+
+    void ChasePlayer()
+    {
+        isChasing = true;
+        navMeshAgent.SetDestination(player.position);
+    }
+
+    void GoToNextPatrolPoint()
+    {
+        if (patrolPoints.Length == 0)
+            return;
+
+        navMeshAgent.SetDestination(patrolPoints[currentPatrolIndex].position);
+        currentPatrolIndex = (currentPatrolIndex + 1) % patrolPoints.Length;
     }
 }
