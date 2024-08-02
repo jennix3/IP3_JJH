@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8048923319280919696}
   - component: {fileID: 7159714483177999517}
   - component: {fileID: 892756216134958196}
+  - component: {fileID: 5920078796595220153}
   m_Layer: 0
   m_Name: fire_extinguisher_low1_fire_extinguisher_low:fire_extinguisher_lowpCube190
   m_TagString: Untagged
@@ -83,6 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5920078796595220153
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223160434499309924}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4028567270025422745, guid: 3e7edbfaab70b3744b3467e5845faf69, type: 3}
 --- !u!1 &1150869880005783139
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +117,7 @@ GameObject:
   - component: {fileID: 3072208476983780387}
   - component: {fileID: 7497770701989185070}
   - component: {fileID: 4328622326366146127}
+  - component: {fileID: 1476728837027533124}
   m_Layer: 0
   m_Name: fire_extinguisher_low1_fire_extinguisher_low:fire_extinguisher_lowpCylinder29
   m_TagString: Untagged
@@ -166,6 +190,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1476728837027533124
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150869880005783139}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2164377878713889530, guid: 3e7edbfaab70b3744b3467e5845faf69, type: 3}
 --- !u!1 &2813633742991668704
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +223,7 @@ GameObject:
   - component: {fileID: 862748667443844792}
   - component: {fileID: 5359877560080371111}
   - component: {fileID: 8889287990744947409}
+  - component: {fileID: 508477040197314272}
   m_Layer: 0
   m_Name: fire_extinguisher_low1_fire_extinguisher_low:fire_extinguisher_lowpCylinder27
   m_TagString: Untagged
@@ -249,6 +296,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &508477040197314272
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813633742991668704}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5986468505631792468, guid: 3e7edbfaab70b3744b3467e5845faf69, type: 3}
 --- !u!1 &3785737109224167885
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +329,7 @@ GameObject:
   - component: {fileID: 1243580679055081056}
   - component: {fileID: 717036334369701949}
   - component: {fileID: 4635369837640920282}
+  - component: {fileID: 7985023662082170707}
   m_Layer: 0
   m_Name: fire_extinguisher_low1_fire_extinguisher_low:fire_extinguisher_lowpCylinder21
   m_TagString: Untagged
@@ -332,6 +402,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7985023662082170707
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3785737109224167885}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7875229459406015552, guid: 3e7edbfaab70b3744b3467e5845faf69, type: 3}
 --- !u!1 &3980089752129875352
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +435,7 @@ GameObject:
   - component: {fileID: 2660256969840847179}
   - component: {fileID: 5008422646355241881}
   - component: {fileID: 908763911357855647}
+  - component: {fileID: 8754087210536721940}
   m_Layer: 0
   m_Name: fire_extinguisher_low1_fire_extinguisher_low:fire_extinguisher_lowpCylinder24
   m_TagString: Untagged
@@ -415,6 +508,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8754087210536721940
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3980089752129875352}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 797751187859939441, guid: 3e7edbfaab70b3744b3467e5845faf69, type: 3}
 --- !u!1 &5557922517764207332
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +541,7 @@ GameObject:
   - component: {fileID: 5867582222858249082}
   - component: {fileID: 7139721674640801885}
   - component: {fileID: 4321982784164411207}
+  - component: {fileID: 4588469375463531521}
   m_Layer: 0
   m_Name: fire_extinguisher_low1_fire_extinguisher_low:fire_extinguisher_lowpCylinder22
   m_TagString: Untagged
@@ -498,6 +614,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4588469375463531521
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5557922517764207332}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 220730677388120204, guid: 3e7edbfaab70b3744b3467e5845faf69, type: 3}
 --- !u!1 &5897005299044072447
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,6 +645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1949426904273856245}
+  - component: {fileID: 2601343915941342972}
   m_Layer: 0
   m_Name: extinguish2
   m_TagString: Untagged
@@ -540,6 +679,28 @@ Transform:
   - {fileID: 3883254959241696217}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &2601343915941342972
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897005299044072447}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &6205768453816733119
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,6 +712,7 @@ GameObject:
   - component: {fileID: 3883254959241696217}
   - component: {fileID: 963767070708344490}
   - component: {fileID: 8252037024309752993}
+  - component: {fileID: 4047822996567992851}
   m_Layer: 0
   m_Name: fire_extinguisher_low:pCylinder25fire_extinguisher_low_fire_extinguisher_low1
   m_TagString: Untagged
@@ -623,6 +785,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4047822996567992851
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6205768453816733119}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5980987099267048127, guid: 3e7edbfaab70b3744b3467e5845faf69, type: 3}
 --- !u!1 &6352016439237548890
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,6 +818,7 @@ GameObject:
   - component: {fileID: 2251304143889732884}
   - component: {fileID: 1047650825708384928}
   - component: {fileID: 8955225833239945691}
+  - component: {fileID: 1304899407175329585}
   m_Layer: 0
   m_Name: fire_extinguisher_low1_fire_extinguisher_low:fire_extinguisher_lowpCylinder28
   m_TagString: Untagged
@@ -706,6 +891,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1304899407175329585
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6352016439237548890}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2396758601327929507, guid: 3e7edbfaab70b3744b3467e5845faf69, type: 3}
 --- !u!1 &7069178581798189804
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,6 +924,7 @@ GameObject:
   - component: {fileID: 7171263916717083584}
   - component: {fileID: 4499904739886163132}
   - component: {fileID: 3520636297746873439}
+  - component: {fileID: 7905023924223414216}
   m_Layer: 0
   m_Name: fire_extinguisher_low1_fire_extinguisher_low:fire_extinguisher_lowpCylinder30
   m_TagString: Untagged
@@ -789,6 +997,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7905023924223414216
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7069178581798189804}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3931352225271249092, guid: 3e7edbfaab70b3744b3467e5845faf69, type: 3}
 --- !u!1 &7904253655807380061
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,6 +1030,7 @@ GameObject:
   - component: {fileID: 6458546262058092423}
   - component: {fileID: 2472621490687417232}
   - component: {fileID: 7202757202642103301}
+  - component: {fileID: 6572477898432339207}
   m_Layer: 0
   m_Name: fire_extinguisher_low1_fire_extinguisher_low:fire_extinguisher_lowpCube191
   m_TagString: Untagged
@@ -872,6 +1103,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6572477898432339207
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7904253655807380061}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5924726632631543828, guid: 3e7edbfaab70b3744b3467e5845faf69, type: 3}
 --- !u!1 &7938163845198130056
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,6 +1136,7 @@ GameObject:
   - component: {fileID: 8023101246357122850}
   - component: {fileID: 8369814811781453150}
   - component: {fileID: 3877333870017860152}
+  - component: {fileID: 575432442502736203}
   m_Layer: 0
   m_Name: fire_extinguisher_low1_fire_extinguisher_low:fire_extinguisher_lowpolySurface2
   m_TagString: Untagged
@@ -955,3 +1209,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &575432442502736203
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7938163845198130056}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8173152956765164186, guid: 3e7edbfaab70b3744b3467e5845faf69, type: 3}

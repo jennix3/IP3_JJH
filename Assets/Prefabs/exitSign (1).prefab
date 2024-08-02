@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9096731325316259338}
+  - component: {fileID: 6199713796191276859}
   m_Layer: 0
   m_Name: exitSign (1)
   m_TagString: Untagged
@@ -35,6 +36,28 @@ Transform:
   - {fileID: 7153986658609348915}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!64 &6199713796191276859
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23066321295412745}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1292369329346759164
 GameObject:
   m_ObjectHideFlags: 0
@@ -46,6 +69,7 @@ GameObject:
   - component: {fileID: 4919573308785625047}
   - component: {fileID: 1618116455280513612}
   - component: {fileID: 2356629297027305890}
+  - component: {fileID: 4488253433891843841}
   m_Layer: 0
   m_Name: exitSign_pCube208
   m_TagString: Untagged
@@ -118,6 +142,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4488253433891843841
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292369329346759164}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5052769137787312429, guid: 0cc08079890f01749946c123fbb68180, type: 3}
 --- !u!1 &2842485408581015611
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,6 +175,7 @@ GameObject:
   - component: {fileID: 4785786387215340786}
   - component: {fileID: 6869152523932489730}
   - component: {fileID: 1639168592934883399}
+  - component: {fileID: 9073498153687120622}
   m_Layer: 0
   m_Name: exitSign_pCube209 (1)
   m_TagString: Untagged
@@ -201,6 +248,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9073498153687120622
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2842485408581015611}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 194219754407501804, guid: 0cc08079890f01749946c123fbb68180, type: 3}
 --- !u!1 &6764352164656668123
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,6 +284,7 @@ GameObject:
   - component: {fileID: 6594152705427950425}
   - component: {fileID: 1977231768855054557}
   - component: {fileID: 2841527525903227277}
+  - component: {fileID: 443858806593946778}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -554,6 +624,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!64 &443858806593946778
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6764352164656668123}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &8248521621037112755
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,6 +657,7 @@ GameObject:
   - component: {fileID: 6134135631020879696}
   - component: {fileID: 921715748182304249}
   - component: {fileID: 4154444624820281195}
+  - component: {fileID: 2686307630471788992}
   m_Layer: 0
   m_Name: pCube207_exitSign
   m_TagString: Untagged
@@ -637,3 +730,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2686307630471788992
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8248521621037112755}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 627995831766795915, guid: 0cc08079890f01749946c123fbb68180, type: 3}

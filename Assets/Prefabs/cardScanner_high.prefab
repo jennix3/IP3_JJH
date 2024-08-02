@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3456987947300091218}
   - component: {fileID: 2823886867219184898}
   - component: {fileID: 317338320259847742}
+  - component: {fileID: 5045778534843600529}
   m_Layer: 0
   m_Name: cardScanner_high_fireLift3
   m_TagString: Untagged
@@ -83,6 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5045778534843600529
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571923011265006547}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5088205881902817476, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &1415789999243587879
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +117,7 @@ GameObject:
   - component: {fileID: 5043473529819271389}
   - component: {fileID: 1027941007679212992}
   - component: {fileID: 4732925352888281624}
+  - component: {fileID: 7892434368812283585}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder4
   m_TagString: Untagged
@@ -166,6 +190,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7892434368812283585
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415789999243587879}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4401431550181054111, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &2376913159976071754
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +223,7 @@ GameObject:
   - component: {fileID: 2824638150584379448}
   - component: {fileID: 8343253500098219403}
   - component: {fileID: 2766889919489299364}
+  - component: {fileID: 1050931236247851954}
   m_Layer: 0
   m_Name: pCylinder8_cardScanner_high
   m_TagString: Untagged
@@ -249,6 +296,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1050931236247851954
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2376913159976071754}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -393159719700270126, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &2665549596088567162
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +329,7 @@ GameObject:
   - component: {fileID: 6082894845814781406}
   - component: {fileID: 8185215041449874091}
   - component: {fileID: 675597844340377247}
+  - component: {fileID: 2080531445065986214}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder12
   m_TagString: Untagged
@@ -332,6 +402,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2080531445065986214
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2665549596088567162}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7278657018365010177, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &2714421289827071393
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +435,7 @@ GameObject:
   - component: {fileID: 4113459468069355797}
   - component: {fileID: 7030620489528107771}
   - component: {fileID: 5397610028967099544}
+  - component: {fileID: 4243264784823903188}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder15
   m_TagString: Untagged
@@ -415,6 +508,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4243264784823903188
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2714421289827071393}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7087143994096180227, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &3028466124659931396
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +541,7 @@ GameObject:
   - component: {fileID: 4721682402193844656}
   - component: {fileID: 4918624203066935218}
   - component: {fileID: 6974250313074839989}
+  - component: {fileID: 7241792730585584554}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder7
   m_TagString: Untagged
@@ -498,6 +614,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7241792730585584554
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3028466124659931396}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5568572176697439402, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &3171145971995241875
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,6 +647,7 @@ GameObject:
   - component: {fileID: 287742498116467944}
   - component: {fileID: 3953905906070370372}
   - component: {fileID: 9153875941648846366}
+  - component: {fileID: 4359528854672083539}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder14
   m_TagString: Untagged
@@ -581,6 +720,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4359528854672083539
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3171145971995241875}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 438738735354206958, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &3664563350727850253
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,6 +753,7 @@ GameObject:
   - component: {fileID: 429130258239409280}
   - component: {fileID: 6317436850376197297}
   - component: {fileID: 4389511779102964197}
+  - component: {fileID: 5299871876367365634}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder9
   m_TagString: Untagged
@@ -664,6 +826,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5299871876367365634
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3664563350727850253}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6088968242391123732, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &3912511223748986730
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,6 +857,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6178397595577370940}
+  - component: {fileID: 650902591698697743}
   m_Layer: 0
   m_Name: cardScanner_high
   m_TagString: Untagged
@@ -718,6 +903,28 @@ Transform:
   - {fileID: 8030998715450253321}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &650902591698697743
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912511223748986730}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &4087013536425652114
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +936,7 @@ GameObject:
   - component: {fileID: 8030998715450253321}
   - component: {fileID: 8892041249402893141}
   - component: {fileID: 4732546243231322121}
+  - component: {fileID: 65161296363337478}
   m_Layer: 0
   m_Name: cardScanner_low_fireLift6
   m_TagString: Untagged
@@ -801,6 +1009,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &65161296363337478
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4087013536425652114}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1072701411215865345, guid: 1cb0f2860b689384c91c39e8fbb2a908, type: 3}
 --- !u!1 &4314309279376356264
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,6 +1042,7 @@ GameObject:
   - component: {fileID: 6152496909868097902}
   - component: {fileID: 6769851136750503128}
   - component: {fileID: 6418888071603165676}
+  - component: {fileID: 7620206993391169277}
   m_Layer: 0
   m_Name: cardScanner_high_fireLift2
   m_TagString: Untagged
@@ -884,6 +1115,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7620206993391169277
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314309279376356264}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2296730490437147558, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &4538444788768575107
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,6 +1148,7 @@ GameObject:
   - component: {fileID: 6020103478679706023}
   - component: {fileID: 3246113745655935604}
   - component: {fileID: 5220107947666683149}
+  - component: {fileID: 8885707711811796649}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder13
   m_TagString: Untagged
@@ -967,6 +1221,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8885707711811796649
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4538444788768575107}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2813156034416228800, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &4798847718457510995
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,6 +1254,7 @@ GameObject:
   - component: {fileID: 502971813112670208}
   - component: {fileID: 8751881067890040351}
   - component: {fileID: 7599692803433373712}
+  - component: {fileID: 8744406744466696890}
   m_Layer: 0
   m_Name: cardScanner_high_polySurface1
   m_TagString: Untagged
@@ -1050,6 +1327,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8744406744466696890
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4798847718457510995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1700195910152689549, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &5374494144857812842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,6 +1360,7 @@ GameObject:
   - component: {fileID: 7038585744236495283}
   - component: {fileID: 4934553324212992000}
   - component: {fileID: 1147496735212644260}
+  - component: {fileID: 6848815341803622666}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder19
   m_TagString: Untagged
@@ -1133,6 +1433,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6848815341803622666
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5374494144857812842}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3745864546285475319, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &5986913899357014747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,6 +1466,7 @@ GameObject:
   - component: {fileID: 4298783167688522962}
   - component: {fileID: 2394766220985068830}
   - component: {fileID: 6376628545141150737}
+  - component: {fileID: 3901421137713904735}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder16
   m_TagString: Untagged
@@ -1216,6 +1539,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3901421137713904735
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5986913899357014747}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 649270753221817845, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &6259437092161950473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,6 +1572,7 @@ GameObject:
   - component: {fileID: 2375950057317033872}
   - component: {fileID: 2013491685827689385}
   - component: {fileID: 6622739875149779417}
+  - component: {fileID: 2369762265224803119}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder5
   m_TagString: Untagged
@@ -1299,6 +1645,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2369762265224803119
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6259437092161950473}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1992998838257136866, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &6735467627263135952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,6 +1678,7 @@ GameObject:
   - component: {fileID: 7559967575639112350}
   - component: {fileID: 4007525467464220189}
   - component: {fileID: 3993320945554671623}
+  - component: {fileID: 4724691149651043384}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder18
   m_TagString: Untagged
@@ -1382,6 +1751,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4724691149651043384
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6735467627263135952}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1297889437025018840, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &6963511347958099748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,6 +1784,7 @@ GameObject:
   - component: {fileID: 2057380737255906424}
   - component: {fileID: 3558661304201475613}
   - component: {fileID: 8532065816653697871}
+  - component: {fileID: 2941928799859984229}
   m_Layer: 0
   m_Name: cardScanner_high_fireLift5
   m_TagString: Untagged
@@ -1465,6 +1857,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2941928799859984229
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6963511347958099748}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 614741994822999085, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &7047153589337279103
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,6 +1890,7 @@ GameObject:
   - component: {fileID: 4626700481524391085}
   - component: {fileID: 2165212513709752899}
   - component: {fileID: 6666948969807407946}
+  - component: {fileID: 6538043510175703837}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder11
   m_TagString: Untagged
@@ -1548,6 +1963,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6538043510175703837
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7047153589337279103}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2028301217847259729, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &7895407372286220643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,6 +1996,7 @@ GameObject:
   - component: {fileID: 1148522467244856083}
   - component: {fileID: 3546952858827770960}
   - component: {fileID: 3240858839556832950}
+  - component: {fileID: 2716210257078710217}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder10
   m_TagString: Untagged
@@ -1631,6 +2069,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2716210257078710217
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7895407372286220643}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3158128620272031161, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &8021750999477516762
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,6 +2102,7 @@ GameObject:
   - component: {fileID: 1921604122768344114}
   - component: {fileID: 4089992591660945276}
   - component: {fileID: 7696440167030231026}
+  - component: {fileID: 460762324024397876}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder20
   m_TagString: Untagged
@@ -1714,6 +2175,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &460762324024397876
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8021750999477516762}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6178409206850490669, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &8295182924097465938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,6 +2208,7 @@ GameObject:
   - component: {fileID: 8059038277964214375}
   - component: {fileID: 9010671609987539547}
   - component: {fileID: 7036553337648712097}
+  - component: {fileID: 6194387880940045172}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder6
   m_TagString: Untagged
@@ -1797,6 +2281,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6194387880940045172
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8295182924097465938}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7633816115101408210, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &8651637923802267063
 GameObject:
   m_ObjectHideFlags: 0
@@ -1808,6 +2314,7 @@ GameObject:
   - component: {fileID: 5340241948968788569}
   - component: {fileID: 4635603991018144124}
   - component: {fileID: 6701220419457387483}
+  - component: {fileID: 7692482517617908596}
   m_Layer: 0
   m_Name: cardScanner_high_fireLift4
   m_TagString: Untagged
@@ -1880,6 +2387,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7692482517617908596
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8651637923802267063}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6004601313550820856, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
 --- !u!1 &9177506401162107930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,6 +2420,7 @@ GameObject:
   - component: {fileID: 3413596626193182829}
   - component: {fileID: 3537242519521182112}
   - component: {fileID: 5168756837449873527}
+  - component: {fileID: 771450611062810751}
   m_Layer: 0
   m_Name: cardScanner_high_pCylinder17
   m_TagString: Untagged
@@ -1963,3 +2493,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &771450611062810751
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9177506401162107930}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4798599336109638108, guid: 1238f359df8782e4a8c5c256f295aacf, type: 3}
