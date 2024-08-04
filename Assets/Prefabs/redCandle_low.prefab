@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7408178758865647718}
   - component: {fileID: 118798310040915600}
   - component: {fileID: 7074460103514806032}
+  - component: {fileID: 5999400974069182086}
   m_Layer: 0
   m_Name: r
   m_TagString: Untagged
@@ -107,6 +108,28 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: -0.0000037550926, y: 0, z: -0.00000008940697}
+--- !u!64 &5999400974069182086
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563919840902595560}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &4336134146201004149
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,6 +139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2914149808385666684}
+  - component: {fileID: 8569212952016342804}
   m_Layer: 0
   m_Name: redCandle_low
   m_TagString: Untagged
@@ -140,6 +164,28 @@ Transform:
   - {fileID: 3513198497594656183}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &8569212952016342804
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4336134146201004149}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &4879794079740987870
 GameObject:
   m_ObjectHideFlags: 0
@@ -151,6 +197,7 @@ GameObject:
   - component: {fileID: 6722241237094112593}
   - component: {fileID: 23592224692728365}
   - component: {fileID: 5806783745529923803}
+  - component: {fileID: 551002860491462635}
   m_Layer: 0
   m_Name: pCube211_redCandle_low
   m_TagString: Untagged
@@ -223,3 +270,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &551002860491462635
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4879794079740987870}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -385491491124919563, guid: d0cd0e274e23d1b40b537e0d30192a56, type: 3}

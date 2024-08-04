@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7399760577643575473}
   - component: {fileID: 5052864506817323813}
   - component: {fileID: 2477220170073160186}
+  - component: {fileID: 4893557324113662639}
   m_Layer: 0
   m_Name: staircaseWalls
   m_TagString: Untagged
@@ -85,6 +86,28 @@ MeshRenderer:
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2477220170073160186
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7622223628035491770}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -326155976204738199, guid: cb45ff6944bad8943987991ac59a0a2f, type: 3}
+--- !u!64 &4893557324113662639
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

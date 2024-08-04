@@ -4325,6 +4325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5948171305445199034}
+  - component: {fileID: 8903399427291654149}
   m_Layer: 0
   m_Name: talismans_normal
   m_TagString: Untagged
@@ -4529,6 +4530,28 @@ Transform:
   - {fileID: 4842265948640102167}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &8903399427291654149
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2495439081782984144}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &2508610598847105896
 GameObject:
   m_ObjectHideFlags: 0

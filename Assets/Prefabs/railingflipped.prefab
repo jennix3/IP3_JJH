@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6713994411768268077}
   - component: {fileID: 4958221054493781539}
   - component: {fileID: 426224535566241717}
+  - component: {fileID: 7263664858015141047}
   m_Layer: 0
   m_Name: railingflipped
   m_TagString: Untagged
@@ -85,6 +86,28 @@ MeshRenderer:
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &426224535566241717
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2867117759585265551}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7589905136453537878, guid: 5761276126c630a469b4e8394f35c061, type: 3}
+--- !u!64 &7263664858015141047
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

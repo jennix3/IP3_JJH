@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceThreshold: 0.15
-  isGrounded: 1
+  isGrounded: 0
 --- !u!1 &1593727746557118
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,7 +604,7 @@ MonoBehaviour:
   movement: {fileID: 114963311885979670}
   movementSpeed: 2
   headToLower: {fileID: 4490257326247362}
-  crouchYHeadPosition: 1
+  crouchYHeadPosition: 0.5
   colliderToLower: {fileID: 136877096903737240}
 --- !u!1 &1963958859065967600
 GameObject:

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3517672879985937407}
   - component: {fileID: 519683569530814537}
   - component: {fileID: 5174847862892438016}
+  - component: {fileID: 9114356186697436038}
   m_Layer: 0
   m_Name: staircaselight
   m_TagString: Untagged
@@ -345,6 +346,28 @@ MeshFilter:
   m_GameObject: {fileID: 104949565345862618}
   m_Mesh: {fileID: 0}
 --- !u!64 &5174847862892438016
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104949565345862618}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!64 &9114356186697436038
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
