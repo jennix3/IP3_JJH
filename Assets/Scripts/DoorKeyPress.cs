@@ -7,7 +7,7 @@ public class DoorKeyPress : MonoBehaviour
 {
     [SerializeField] bool playerInRange;
     [SerializeField] bool isdoorOpen;
-    [SerializeField] TMP_Text interactText;
+    [SerializeField] TMP_Text interactText; // Reference to the shared TMP_Text
 
     Animator anim;
     AudioSource audioSource;
@@ -45,27 +45,18 @@ public class DoorKeyPress : MonoBehaviour
     {
         if (playerInRange)
         {
-            if (isdoorOpen) //door open == true
+            if (isdoorOpen) // door open == true
             {
-                if (interactText != null)
-                {
-                    interactText.SetText("\"E\" to Close");
-                }
+                interactText.SetText("\"E\" to Close");
             }
             else
             {
-                if (interactText != null)
-                {
-                    interactText.SetText("\"E\" to Open");
-                }
+                interactText.SetText("\"E\" to Open");
             }
         }
         else
         {
-            if (interactText != null)
-            {
-                interactText.SetText("");
-            }
+            interactText.SetText("");
         }
 
         if (Input.GetKeyDown(KeyCode.E) && playerInRange)
@@ -101,7 +92,6 @@ public class DoorKeyPress : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            //print("Player has entered");
             playerInRange = true;
         }
     }
@@ -109,7 +99,6 @@ public class DoorKeyPress : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            //print("Player has exited");
             playerInRange = false;
         }
     }
