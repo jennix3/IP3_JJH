@@ -14,6 +14,9 @@ public class DoorKeyPress : MonoBehaviour
     [SerializeField] AudioClip doorOpenSound;  // Audio for opening the door
     [SerializeField] AudioClip doorCloseSound; // Audio for closing the door
 
+    [SerializeField] float autoCloseDelay = 5f; // Time in seconds before the door closes automatically
+    private Coroutine autoCloseCoroutine;
+
     private void Awake()
     {
         if (interactText != null)
@@ -44,47 +47,70 @@ public class DoorKeyPress : MonoBehaviour
     private void Update()
     {
         if (playerInRange)
+
         {
-            if (isdoorOpen) // door open == true
+            // Show interaction text based on door state
+            interactText.SetText(isdoorOpen ? "\"E\" to Close" : "\"E\" to Open");
+
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                interactText.SetText("\"E\" to Close");
-            }
-            else
-            {
-                interactText.SetText("\"E\" to Open");
+                if (isdoorOpen)
+                {
+                    CloseDoor();
+                }
+                else
+                {
+                    OpenDoor();
+                }
             }
         }
-        else
+    }
+
+    private void OpenDoor()
+    {
+        if (anim != null)
         {
-            interactText.SetText("");
+            anim.SetTrigger("Open");
+        }
+        isdoorOpen = true;
+        if (audioSource != null && doorOpenSound != null)
+        {
+            audioSource.PlayOneShot(doorOpenSound); // Play open sound
         }
 
-        if (Input.GetKeyDown(KeyCode.E) && playerInRange)
+        // Start the auto-close coroutine
+        if (autoCloseCoroutine != null)
         {
-            if (isdoorOpen)
-            {
-                if (anim != null)
-                {
-                    anim.SetTrigger("Close");
-                }
-                isdoorOpen = false;
-                if (audioSource != null && doorCloseSound != null)
-                {
-                    audioSource.PlayOneShot(doorCloseSound); // Play close sound
-                }
-            }
-            else
-            {
-                if (anim != null)
-                {
-                    anim.SetTrigger("Open");
-                }
-                isdoorOpen = true;
-                if (audioSource != null && doorOpenSound != null)
-                {
-                    audioSource.PlayOneShot(doorOpenSound); // Play open sound
-                }
-            }
+            StopCoroutine(autoCloseCoroutine);
+        }
+        autoCloseCoroutine = StartCoroutine(AutoCloseDoor());
+    }
+
+    private void CloseDoor()
+    {
+        if (anim != null)
+        {
+            anim.SetTrigger("Close");
+        }
+        isdoorOpen = false;
+        if (audioSource != null && doorCloseSound != null)
+        {
+            audioSource.PlayOneShot(doorCloseSound); // Play close sound
+        }
+
+        // Stop the auto-close coroutine
+        if (autoCloseCoroutine != null)
+        {
+            StopCoroutine(autoCloseCoroutine);
+        }
+    }
+
+    private IEnumerator AutoCloseDoor()
+    {
+        yield return new WaitForSeconds(autoCloseDelay);
+        if (isdoorOpen)
+        {
+            CloseDoor();
         }
     }
 
@@ -93,13 +119,28 @@ public class DoorKeyPress : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             playerInRange = true;
+            UpdateInteractText();
         }
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             playerInRange = false;
+            interactText.SetText(""); // Clear text when player leaves the door
+        }
+    }
+
+    private void UpdateInteractText()
+    {
+        if (isdoorOpen)
+        {
+            interactText.SetText("\"E\" to Close");
+        }
+        else
+        {
+            interactText.SetText("\"E\" to Open");
         }
     }
 }
