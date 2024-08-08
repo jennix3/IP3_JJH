@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 4858754733405299986}
   - component: {fileID: 204955428813317038}
   - component: {fileID: 4929582989367012982}
-  - component: {fileID: -6978586232506128723}
   m_Layer: 0
   m_Name: blk31Ceiling
   m_TagString: Untagged
@@ -333,28 +332,6 @@ MeshFilter:
   m_GameObject: {fileID: 3736677203018596569}
   m_Mesh: {fileID: 0}
 --- !u!64 &4929582989367012982
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3736677203018596569}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!64 &-6978586232506128723
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
