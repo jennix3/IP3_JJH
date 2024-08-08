@@ -7,6 +7,7 @@ public class WalkAround : MonoBehaviour
     public Transform[] patrolPoints;
     public int targetPoint;
     public float speed;
+
     // Start is called before the first frame update
     void Start()
     {
