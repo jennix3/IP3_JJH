@@ -19,7 +19,7 @@ public class JumpScare : MonoBehaviour
     }
     IEnumerator DisableImg()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(4);
         JumpScareImg.SetActive(false); Destroy(gameObject);
     }
     // Update is called once per frame
