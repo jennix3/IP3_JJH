@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5109325461289320414}
   - component: {fileID: 7974619329666947342}
   - component: {fileID: 4373199064483881285}
+  - component: {fileID: 2232857349951952886}
   m_Layer: 0
   m_Name: glass_glassDoorhigh
   m_TagString: Untagged
@@ -106,6 +107,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3636840098168885268, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &2232857349951952886
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92564608822279883}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3636840098168885268, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &230408577681877290
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,6 +141,7 @@ GameObject:
   - component: {fileID: 8847865041050697514}
   - component: {fileID: 2957161998412212687}
   - component: {fileID: 586664662549186707}
+  - component: {fileID: 424944120315795027}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge15
   m_TagString: Untagged
@@ -212,6 +236,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7670619328343489972, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &424944120315795027
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230408577681877290}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7670619328343489972, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &435538470967471666
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,6 +270,7 @@ GameObject:
   - component: {fileID: 232470687423095152}
   - component: {fileID: 9087439616888247738}
   - component: {fileID: 7172339122234855391}
+  - component: {fileID: 1036349388920398973}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge7
   m_TagString: Untagged
@@ -318,6 +365,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3927410329879997799, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &1036349388920398973
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435538470967471666}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3927410329879997799, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &582483150010830904
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,6 +399,7 @@ GameObject:
   - component: {fileID: 7263563929927146072}
   - component: {fileID: 5905938479687764545}
   - component: {fileID: 5794501940452105757}
+  - component: {fileID: 1945418200219433658}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge11
   m_TagString: Untagged
@@ -424,6 +494,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3025591911029322131, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &1945418200219433658
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582483150010830904}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3025591911029322131, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &586411234948462695
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,6 +526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4412874931112916123}
   - component: {fileID: 3533220759189372653}
+  - component: {fileID: 3711373332997010756}
   m_Layer: 0
   m_Name: glassDoor_high
   m_TagString: Untagged
@@ -449,9 +542,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586411234948462695}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.283, y: -0.44, z: 7.597}
-  m_LocalScale: {x: 0.010363965, y: 0.010363965, z: 0.010363965}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.23767865, y: -24.805258, z: 1.3416951}
+  m_LocalScale: {x: 0.011921669, y: 0.011921669, z: 0.011921669}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2558292768756636607}
@@ -481,9 +574,32 @@ Transform:
   - {fileID: 5682203917626075826}
   - {fileID: 118396520409516062}
   - {fileID: 2663281987021872189}
+  - {fileID: 6961717126900662654}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &3533220759189372653
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586411234948462695}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!64 &3711373332997010756
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -517,6 +633,7 @@ GameObject:
   - component: {fileID: 8858602317727978309}
   - component: {fileID: 2003472541548864951}
   - component: {fileID: 914195775286722690}
+  - component: {fileID: 4159796579439712054}
   m_Layer: 0
   m_Name: glassDoorhigh_glassDoorBottom1
   m_TagString: Untagged
@@ -611,6 +728,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5443690206438070673, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &4159796579439712054
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093875496599514931}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5443690206438070673, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &1341703913563849179
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,6 +762,7 @@ GameObject:
   - component: {fileID: 8031571461431307484}
   - component: {fileID: 1675430064665626320}
   - component: {fileID: 2207286344382335039}
+  - component: {fileID: 4768151664462177145}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge1
   m_TagString: Untagged
@@ -717,6 +857,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8326900296986666563, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &4768151664462177145
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341703913563849179}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8326900296986666563, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &1566592822652618794
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +891,7 @@ GameObject:
   - component: {fileID: 8344303577724145199}
   - component: {fileID: 6579205689485013610}
   - component: {fileID: 7768472241463275403}
+  - component: {fileID: 8902841403190283676}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge12
   m_TagString: Untagged
@@ -823,6 +986,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3562658001084500224, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &8902841403190283676
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566592822652618794}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3562658001084500224, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &1622657248635663555
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +1020,7 @@ GameObject:
   - component: {fileID: 3583542385574540296}
   - component: {fileID: 5581174695648443083}
   - component: {fileID: 7995626154408095054}
+  - component: {fileID: 222708400391072876}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge3
   m_TagString: Untagged
@@ -929,6 +1115,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7063637507036142586, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &222708400391072876
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622657248635663555}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7063637507036142586, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &1990776217999842091
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,6 +1149,7 @@ GameObject:
   - component: {fileID: 5985166785557964914}
   - component: {fileID: 7763536074268014020}
   - component: {fileID: 4443220019115101943}
+  - component: {fileID: 708983967967034626}
   m_Layer: 0
   m_Name: glassDoorhigh_glassDoorBottom3
   m_TagString: Untagged
@@ -1035,6 +1244,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4868367200200632353, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &708983967967034626
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990776217999842091}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4868367200200632353, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &1994631138309321750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,6 +1278,7 @@ GameObject:
   - component: {fileID: 5925731172367306703}
   - component: {fileID: 6492663750923991920}
   - component: {fileID: 8338427496162555739}
+  - component: {fileID: 7560445504486940141}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge2
   m_TagString: Untagged
@@ -1141,6 +1373,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6855753567237155513, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &7560445504486940141
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994631138309321750}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6855753567237155513, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &2008432746730572844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,6 +1407,7 @@ GameObject:
   - component: {fileID: 1994523364174955803}
   - component: {fileID: 8405206651155350662}
   - component: {fileID: 8579588507617958576}
+  - component: {fileID: 3735582167660329522}
   m_Layer: 0
   m_Name: glassDoorhigh_handle
   m_TagString: Untagged
@@ -1247,6 +1502,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7435161418333495589, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &3735582167660329522
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008432746730572844}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7435161418333495589, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &2028619324880405705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1259,6 +1536,7 @@ GameObject:
   - component: {fileID: 6102923484711828928}
   - component: {fileID: 4491636176340060242}
   - component: {fileID: 5535398678306118957}
+  - component: {fileID: 7293453915962486205}
   m_Layer: 0
   m_Name: glassDoorhigh_glassDoorMiddle
   m_TagString: Untagged
@@ -1353,6 +1631,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6040626103411258956, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &7293453915962486205
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028619324880405705}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6040626103411258956, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &2184364616374464127
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,6 +1665,7 @@ GameObject:
   - component: {fileID: 3552459055165211568}
   - component: {fileID: 7995320427269211675}
   - component: {fileID: 5529948002559761064}
+  - component: {fileID: 7310279549898913858}
   m_Layer: 0
   m_Name: glassDoorhigh_glassDoorBottom2
   m_TagString: Untagged
@@ -1459,6 +1760,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3820495204707727628, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &7310279549898913858
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2184364616374464127}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3820495204707727628, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &2622584033798532665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,6 +1794,7 @@ GameObject:
   - component: {fileID: 2036042732293440068}
   - component: {fileID: 6654471055586431115}
   - component: {fileID: 5813554566834089159}
+  - component: {fileID: 702840654250915534}
   m_Layer: 0
   m_Name: glassDoorhigh_glassOntop
   m_TagString: Untagged
@@ -1565,6 +1889,156 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1530307594230438382, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &702840654250915534
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2622584033798532665}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1530307594230438382, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!1 &2804628630280836878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6961717126900662654}
+  - component: {fileID: 5861270438699002027}
+  - component: {fileID: 6366908843418142360}
+  - component: {fileID: 8310667424368080524}
+  - component: {fileID: 2156587631627020197}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &6961717126900662654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804628630280836878}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1435.1382, y: 1974.4125, z: -301.03152}
+  m_LocalScale: {x: 1.0996915, y: 281.80447, z: 2.280635}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4412874931112916123}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5861270438699002027
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804628630280836878}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &6366908843418142360
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804628630280836878}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 806df4771306e41438d6a4c8f322226f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8310667424368080524
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804628630280836878}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!64 &2156587631627020197
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804628630280836878}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &3886066406278088648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,6 +2051,7 @@ GameObject:
   - component: {fileID: 611236627526511673}
   - component: {fileID: 3063266778928320923}
   - component: {fileID: 1697303812658287071}
+  - component: {fileID: 6640525873413718003}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge6
   m_TagString: Untagged
@@ -1671,6 +2146,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 827444560318075827, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &6640525873413718003
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3886066406278088648}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 827444560318075827, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &4625697398167584219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,6 +2180,7 @@ GameObject:
   - component: {fileID: 821739979283781754}
   - component: {fileID: 4686728541999998383}
   - component: {fileID: 7211744766003780454}
+  - component: {fileID: 5129453990178240409}
   m_Layer: 0
   m_Name: glassDoorhigh_Pull1
   m_TagString: Untagged
@@ -1777,6 +2275,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2770782138799727513, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &5129453990178240409
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4625697398167584219}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2770782138799727513, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &5228273973538129842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,6 +2309,7 @@ GameObject:
   - component: {fileID: 8440890324570446982}
   - component: {fileID: 3090945041690827946}
   - component: {fileID: 8708274954360321501}
+  - component: {fileID: 280341378596588594}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge9
   m_TagString: Untagged
@@ -1883,6 +2404,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5027069401481603953, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &280341378596588594
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5228273973538129842}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5027069401481603953, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &5704849157679022581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1895,6 +2438,7 @@ GameObject:
   - component: {fileID: 9029120243860762099}
   - component: {fileID: 3090596455046609493}
   - component: {fileID: 7029845754866052058}
+  - component: {fileID: 2928236040941672333}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge16
   m_TagString: Untagged
@@ -1989,6 +2533,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8057513367199556433, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &2928236040941672333
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704849157679022581}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8057513367199556433, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &5778185010659429149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,6 +2567,7 @@ GameObject:
   - component: {fileID: 1879230942993293738}
   - component: {fileID: 2031432361750337431}
   - component: {fileID: 4721986481435889259}
+  - component: {fileID: 4423413230170453841}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge4
   m_TagString: Untagged
@@ -2095,6 +2662,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1365420022014513224, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &4423413230170453841
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5778185010659429149}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1365420022014513224, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &6145010350069109941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2107,6 +2696,7 @@ GameObject:
   - component: {fileID: 7922994109848490589}
   - component: {fileID: 6068272300857499471}
   - component: {fileID: 4336248103539878202}
+  - component: {fileID: 724359683114325122}
   m_Layer: 0
   m_Name: glassDoorhigh_handle2
   m_TagString: Untagged
@@ -2201,6 +2791,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6256421552324371983, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &724359683114325122
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6145010350069109941}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6256421552324371983, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &6612700715998008849
 GameObject:
   m_ObjectHideFlags: 0
@@ -2213,6 +2825,7 @@ GameObject:
   - component: {fileID: 7338884521520897762}
   - component: {fileID: 6852955668237474013}
   - component: {fileID: 7349764095112351565}
+  - component: {fileID: 60807038980564924}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge10
   m_TagString: Untagged
@@ -2307,6 +2920,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2329665315759657967, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &60807038980564924
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6612700715998008849}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2329665315759657967, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &6770576493929405136
 GameObject:
   m_ObjectHideFlags: 0
@@ -2319,6 +2954,7 @@ GameObject:
   - component: {fileID: 5696785600482221177}
   - component: {fileID: 1724742767552787506}
   - component: {fileID: 7093133215005650466}
+  - component: {fileID: 5381185059030932328}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge14
   m_TagString: Untagged
@@ -2413,6 +3049,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7380199820956280230, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &5381185059030932328
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6770576493929405136}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7380199820956280230, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &6937098732120635941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,6 +3083,7 @@ GameObject:
   - component: {fileID: 4691465442983848226}
   - component: {fileID: 7033123106797874726}
   - component: {fileID: 866861960409050998}
+  - component: {fileID: 5285640957042741633}
   m_Layer: 0
   m_Name: glassDoorhigh_Pull
   m_TagString: Untagged
@@ -2519,6 +3178,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1465222373482593175, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &5285640957042741633
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6937098732120635941}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1465222373482593175, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &7398465388519873622
 GameObject:
   m_ObjectHideFlags: 0
@@ -2531,6 +3212,7 @@ GameObject:
   - component: {fileID: 3897351639375289170}
   - component: {fileID: 8577695216440084803}
   - component: {fileID: 3629159347580929423}
+  - component: {fileID: 2780753926340786480}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge8
   m_TagString: Untagged
@@ -2625,6 +3307,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4936878246778189753, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &2780753926340786480
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7398465388519873622}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4936878246778189753, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &7747479454913751983
 GameObject:
   m_ObjectHideFlags: 0
@@ -2637,6 +3341,7 @@ GameObject:
   - component: {fileID: 4802862719138705882}
   - component: {fileID: 5125066218006612362}
   - component: {fileID: 1394900522155887322}
+  - component: {fileID: 4467474588608388840}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge5
   m_TagString: Untagged
@@ -2731,6 +3436,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7770399116171096466, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &4467474588608388840
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7747479454913751983}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7770399116171096466, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &8463937595340975438
 GameObject:
   m_ObjectHideFlags: 0
@@ -2743,6 +3470,7 @@ GameObject:
   - component: {fileID: 1117268014168046837}
   - component: {fileID: 3772279298187130372}
   - component: {fileID: 5627635168719337822}
+  - component: {fileID: 449666059378701500}
   m_Layer: 0
   m_Name: glassDoorhigh_glassDoorBottom
   m_TagString: Untagged
@@ -2837,6 +3565,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7806578433773464159, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &449666059378701500
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8463937595340975438}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7806578433773464159, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
 --- !u!1 &9078385460098071388
 GameObject:
   m_ObjectHideFlags: 0
@@ -2849,6 +3599,7 @@ GameObject:
   - component: {fileID: 474756355136412278}
   - component: {fileID: 2901289835957565299}
   - component: {fileID: 3326983732831757501}
+  - component: {fileID: 2758804235415596748}
   m_Layer: 0
   m_Name: glassDoorhigh_doorHinge13
   m_TagString: Untagged
@@ -2922,6 +3673,28 @@ MeshRenderer:
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &3326983732831757501
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9078385460098071388}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3388194277025447706, guid: 69dc1e44bb9c2134581e5f466d87bed2, type: 3}
+--- !u!64 &2758804235415596748
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
