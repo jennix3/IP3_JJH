@@ -21070,7 +21070,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverText: {fileID: 431982921}
+  additionalText: {fileID: 0}
   restartButton: {fileID: 1193594930}
+  backToMenuButton: {fileID: 0}
   componentsToDisable:
   - {fileID: 149536839}
 --- !u!65 &1629005241
@@ -29586,6 +29588,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1417927867571550451, guid: 801beb34d5a800648bc0db4733d8dbbf,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7691120d5ac771241816e9111f0142e7, type: 2}
     - target: {fileID: 7814884515500866082, guid: 801beb34d5a800648bc0db4733d8dbbf,
         type: 3}
       propertyPath: m_Name
