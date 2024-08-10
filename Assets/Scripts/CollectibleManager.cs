@@ -61,7 +61,7 @@ public class CollectibleManager : MonoBehaviour
                 {
                     Destroy(door);
                 }
-                StartCoroutine(ShowSpecialMessage("I heard something"));
+                StartCoroutine(ShowSpecialMessage("Something opened"));
             }
             else if (collectiblesCollected > totalCollectibles)
             {
@@ -77,7 +77,7 @@ public class CollectibleManager : MonoBehaviour
     {
         if (countText != null)
         {
-            countText.text = $"{collectiblesCollected}/{totalCollectibles}";
+            countText.text = $"{collectiblesCollected}/{totalCollectibles}" + " Talisman collected";
         }
     }
 
