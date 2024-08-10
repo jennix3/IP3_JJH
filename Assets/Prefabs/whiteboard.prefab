@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8333090185510049334}
   - component: {fileID: 1341488877617182437}
   - component: {fileID: 1141256545188435565}
-  - component: {fileID: -4846005986687655957}
+  - component: {fileID: 4862310879176719342}
   m_Layer: 0
   m_Name: whiteboard
   m_TagString: Untagged
@@ -27,13 +27,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4333964899787915504}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.536776, y: 3.8114586, z: 34.88232}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 11.083099, y: 1.113, z: 0.13699985}
+  m_LocalScale: {x: 1, y: 0.7359695, z: 0.41131464}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &1341488877617182437
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-4846005986687655957
+--- !u!64 &4862310879176719342
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

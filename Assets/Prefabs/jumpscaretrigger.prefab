@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2066791680301038429}
   - component: {fileID: 5686291541601761781}
+  - component: {fileID: 5439314531523694622}
   m_Layer: 0
   m_Name: jumpscaretrigger
   m_TagString: Untagged
@@ -54,6 +55,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5439314531523694622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5577529251792134821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 400a0af4e6fd7eb4785560e395749e6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JumpScareImg: {fileID: 0}
+  audioSource: {fileID: 8259511350084007620}
 --- !u!1 &7628579654278906008
 GameObject:
   m_ObjectHideFlags: 0

@@ -4325,7 +4325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5948171305445199034}
-  - component: {fileID: 8903399427291654149}
+  - component: {fileID: 5951013259361783992}
   m_Layer: 0
   m_Name: talismans_normal
   m_TagString: Untagged
@@ -4341,9 +4341,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2495439081782984144}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 15.04365, y: -0.7216649, z: 26.728642}
-  m_LocalScale: {x: 0.22590116, y: 0.22590116, z: 0.22590116}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 20.88, y: 2.8715787, z: 37.633667}
+  m_LocalScale: {x: 0.22590119, y: 0.22590116, z: 0.22590116}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8415862308568640081}
@@ -4529,8 +4529,8 @@ Transform:
   - {fileID: 5469142491841723489}
   - {fileID: 4842265948640102167}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8903399427291654149
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
+--- !u!64 &5951013259361783992
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
