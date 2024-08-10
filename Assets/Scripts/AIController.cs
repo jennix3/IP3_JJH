@@ -5,7 +5,7 @@ public class AIController : MonoBehaviour
 {
     public Transform[] patrolPoints;
     public Transform player;
-    public Transform safeZone;
+    public Transform[] safeZones;
     public float chaseDistance = 10f;
     public float safeZoneRadius = 5f;
 
@@ -23,9 +23,8 @@ public class AIController : MonoBehaviour
     void Update()
     {
         float distanceToPlayer = Vector3.Distance(player.position, transform.position);
-        float distanceToSafeZone = Vector3.Distance(player.position, safeZone.position);
 
-        if (distanceToPlayer <= chaseDistance && distanceToSafeZone > safeZoneRadius)
+        if (distanceToPlayer <= chaseDistance && !IsPlayerInAnySafeZone())
         {
             ChasePlayer();
         }
@@ -56,5 +55,18 @@ public class AIController : MonoBehaviour
 
         navMeshAgent.SetDestination(patrolPoints[currentPatrolIndex].position);
         currentPatrolIndex = (currentPatrolIndex + 1) % patrolPoints.Length;
+    }
+
+    bool IsPlayerInAnySafeZone()
+    {
+        foreach (Transform safeZone in safeZones)
+        {
+            float distanceToSafeZone = Vector3.Distance(player.position, safeZone.position);
+            if (distanceToSafeZone <= safeZoneRadius)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
