@@ -1,17 +1,17 @@
 using UnityEngine;
-using UnityEngine.UI; // Use this for the Image component
 
 public class MovementCheck : MonoBehaviour
 {
     public LightManager lightManager; // Reference to the LightManager script
-    public Image gameOverImage; // Reference to your Game Over image
+    public GameObject gameOverCanvas; // Reference to your Game Over canvas
     public FirstPersonMovement playerController; // Reference to your first person controller
+    public GameOverManager gameOverManager; // Reference to the GameOverManager script
 
     private bool gameOver = false;
 
     void Start()
     {
-        gameOverImage.gameObject.SetActive(false);
+        gameOverCanvas.SetActive(false);
     }
 
     void Update()
@@ -25,7 +25,8 @@ public class MovementCheck : MonoBehaviour
     void GameOver()
     {
         gameOver = true;
-        gameOverImage.gameObject.SetActive(true); // Show the Game Over image
+        gameOverCanvas.SetActive(true); // Show the Game Over canvas
         playerController.enabled = false; // Disable the player controller to stop movement
+        gameOverManager.TriggerGameOver(); // Call the TriggerGameOver method from GameOverManager
     }
 }

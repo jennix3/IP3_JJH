@@ -23,7 +23,7 @@ public class Collectible : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            collectibleManager.GetComponent<CollectibleManager>().ShowInteractionText("\"E\" to interact");
+            collectibleManager.GetComponent<CollectibleManager>().ShowInteractionText("\"E\" to collect");
             collectibleManager.GetComponent<CollectibleManager>().SetCurrentCollectible(gameObject);
 
             // Play the interaction sound
