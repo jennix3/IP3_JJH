@@ -1,12 +1,34 @@
+/*
+ * Name: Lucky 777
+ * Date: 10/08/2024
+ * Description: Manages multiple point lights, toggling their colors between green and red at regular intervals.
+ */
+
 using UnityEngine;
 
+/// <summary>
+/// Manages multiple point lights, toggling their colors between green and red at regular intervals.
+/// </summary>
 public class LightManager : MonoBehaviour
 {
-    public Light[] pointLights; // Array to hold multiple point lights
-    public float interval = 2.0f; // Interval for changing light color
+    /// <summary>
+    /// Array to hold multiple point lights to be managed.
+    /// </summary>
+    public Light[] pointLights;
 
+    /// <summary>
+    /// Interval for changing the light color in seconds.
+    /// </summary>
+    public float interval = 2.0f;
+
+    /// <summary>
+    /// Indicates if the current light color is green.
+    /// </summary>
     private bool isGreen = true;
 
+    /// <summary>
+    /// Initializes the light manager by setting up the light color toggle.
+    /// </summary>
     void Start()
     {
         if (pointLights == null || pointLights.Length == 0)
@@ -20,6 +42,9 @@ public class LightManager : MonoBehaviour
         Debug.Log("The pointLights array is assigned correctly.");
     }
 
+    /// <summary>
+    /// Toggles the light color between green and red.
+    /// </summary>
     void ToggleLight()
     {
         isGreen = !isGreen;
@@ -31,6 +56,10 @@ public class LightManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Checks if the current light color is green.
+    /// </summary>
+    /// <returns>True if the light color is green; otherwise, false.</returns>
     public bool IsGreen()
     {
         return isGreen;

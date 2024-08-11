@@ -60,7 +60,7 @@ public class ShowMessageOnCollision : MonoBehaviour
     {
         if (isMessageShown && Input.GetKeyDown(KeyCode.Q))
         {
-            SceneManager.LoadScene("NewScene");
+            SceneManager.LoadScene(8);
         }
     }
 }
